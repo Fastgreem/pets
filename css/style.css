@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-@import url('htpps://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.montserrat-Italic {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
 
 body {
-	font-family: Poppins;
+	font-family: 'Montserrat';
 	margin: 0;
 	font-size: 16px;
 	background-color: #4f8b69;
@@ -128,7 +132,7 @@ header nav {
 }
 
 .carousel .list .item .image figcaption {
-	font-family: Aboreto;
+	font-family: 'Montserrat';
 	font-weight: bold;
 	font-size: 1.3em;
 	text-align: right;
@@ -148,11 +152,11 @@ header nav {
 
 .carousel .list .item .main-content .content h2 {
 	font-size: 5em;
-	font-family: Aboreto;
+	font-family: 'Montserrat';
 }
 
 .carousel .list .item .main-content .content .price {
-	font-family: Aboreto;
+	font-family: 'Montserrat';
 	font-size: 3em;
 	margin: 20px 0;
 }
@@ -161,7 +165,7 @@ header nav {
 	background-color: #4f8b69;
 	color: #fff;
 	padding: 10px 30px;
-	font-family: Poppins;
+	font-family: 'Montserrat';
 	font-size: large;
 	font-weight: 500;
 	border-radius: 30px;
