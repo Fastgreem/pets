@@ -1,0 +1,156 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Питомцы</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="{% static 'main/css/style.css' %}" />
+		<link type="image/x-icon" href="{% static 'main/favicon.ico' %}" rel="shortcut icon" />
+		<link type="image/x-icon" href="{% static 'main/favicon.ico' %}" rel="icon" />
+	</head>
+	<body>
+		<!-- logo and menu -->
+		<header>
+			<figure class="logo">
+				<img src="{% static 'main/images/logo.png' %}" alt="" />
+			</figure>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="">Аксессуары</a></li>
+					<li><a href="">Питание</a></li>
+					<li><a href="">Мы</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- slider -->
+		<main>
+			<section class="carousel next">
+				<div class="list">
+					<article class="item other_1">
+						<div class="main-content" style="background-color: #9c4d2f">
+							<div class="content">
+								<h2>Лучшие игрушки для развития ваших котят</h2>
+								<p class="price">Br 10</p>
+								<p class="description">
+									Развивающие игрушки для щенят и котят - идеальное решение,
+									если вы хотите помочь вашему питомцу развиваться и активно
+									проводить время. Наши игрушки созданы с учетом потребностей
+									растущих питомцев. Они не только развлекают, но и способствуют
+									физическому развитию вашего питомца. Игры для щенят и котят
+									помогут улучшить координацию движений, развивать мышцы и
+									глаза. Кроме того, наши игрушки служат отличным средством
+									развития навыков общения и социализации вашей собаки.
+									Взаимодействие с игрушками может помочь усилить близость между
+									вами и вашим питомцем, а также предотвратить поведенческие
+									проблемы из-за недостатка развлечений. Выберите из нашего
+									ассортимента игрушки для щенят и котят и подарите своему
+									питомцу здоровое развитие и удовольствие от игры.
+								</p>
+								<button class="addToCard">Add To Card</button>
+							</div>
+						</div>
+						<figure class="image">
+							<img src="{% static 'main/images/image1.png' %}" alt="" />
+							<figcaption>Лучшие игрушки для развития ваших котят</figcaption>
+						</figure>
+					</article>
+					<article class="item active">
+						<div class="main-content" style="background-color: #f5bfaf">
+							<div class="content">
+								<h2>Лучшие игрушки для развития ваших щенят</h2>
+								<p class="price">Br 10</p>
+								<p class="description">
+									Развивающие игрушки для щенят и котят - идеальное решение,
+									если вы хотите помочь вашему питомцу развиваться и активно
+									проводить время. Наши игрушки созданы с учетом потребностей
+									растущих питомцев. Они не только развлекают, но и способствуют
+									физическому развитию вашего питомца. Игры для щенят и котят
+									помогут улучшить координацию движений, развивать мышцы и
+									глаза. Кроме того, наши игрушки служат отличным средством
+									развития навыков общения и социализации вашей собаки.
+									Взаимодействие с игрушками может помочь усилить близость между
+									вами и вашим питомцем, а также предотвратить поведенческие
+									проблемы из-за недостатка развлечений. Выберите из нашего
+									ассортимента игрушки для щенят и котят и подарите своему
+									питомцу здоровое развитие и удовольствие от игры.
+								</p>
+								<button class="addToCard">Add To Card</button>
+							</div>
+						</div>
+						<figure class="image">
+							<img src="{% static 'main/images/image2.png' %}" alt="" />
+							<figcaption>Лучшие игрушки для развития ваших щенят</figcaption>
+						</figure>
+					</article>
+					<article class="item other_2">
+						<div class="main-content" style="background-color: #dedfe1">
+							<div class="content">
+								<h2>Сбалансированный корм для ваших питомцев</h2>
+								<p class="price">Br 10</p>
+								<p class="description">
+									Еда для маленьких домашних питомцев - это важная составляющая
+									полноценного питания, которое поддерживает здоровье и энергию
+									вашего любимца. Наши продукты специально разработаны с учетом
+									потребностей щенят и взрослых кошек и собак. Мы используем
+									высококачественные ингредиенты, которые помогут обеспечить
+									вашему питомцу все необходимые нутриенты для роста и развития.
+									Наши корма способствуют здоровому пищеварению и укрепляют
+									иммунитет вашего питомца. Мы также заботимся о зубах, поэтому
+									наши продукты не содержат сахара и помогают предотвратить
+									появление зубного налета. Предлагая качественное питание для
+									маленьких домашних питомцев, мы стремимся обеспечить вашему
+									любимцу долгую и здоровую жизнь. Выбирайте нашу продукцию и
+									дайте своему питомцу все, что нужно для счастья и здоровья.
+								</p>
+								<button class="addToCard">Add To Card</button>
+							</div>
+						</div>
+						<figure class="image">
+							<img src="{% static 'main/images/image3.png' %}" alt="" />
+							<figcaption>Сбалансированный корм для ваших питомцев</figcaption>
+						</figure>
+					</article>
+					<article class="item">
+						<div class="main-content" style="background-color: #7eb63d">
+							<div class="content">
+								<h2>Аксессуары для выгула домашних животных</h2>
+								<p class="price">Br 10</p>
+								<p class="description">
+									Аксессуары для выгула домашних животных в дождливую погоду -
+									это неотъемлемая часть заботы о здоровье и комфорте вашего
+									питомца. Наши аксессуары созданы с использованием
+									высококачественных материалов, которые отлично держат форму и
+									обеспечивают надежность даже в самые влажные условия. Они
+									помогут защитить ваш питомца от болезней и болезненных
+									контактов при выгуле в дождь. Наши аксессуары также удобны для
+									вас - они не вызывают проблем с мытьем и быстро сохнут, что
+									упрощает поддержание чистоты и комфортного окружающего
+									пространства. Предлагайте нашим продуктам и обеспечьте вашему
+									питомцу здоровые и приятные прогулки даже в дождливую погоду.
+								</p>
+								<button class="addToCard">Add To Card</button>
+							</div>
+						</div>
+						<figure class="image">
+							<img src="{% static 'main/images/image4.png' %}" alt="" />
+							<figcaption>Аксессуары для выгула домашних животных</figcaption>
+						</figure>
+					</article>
+				</div>
+				<div class="arrows">
+					<button id="prev"><</button>
+					<button id="next">></button>
+				</div>
+			</section>
+		</main>
+		<!-- ---------- -->
+		<script src="{% static 'main/js/script.js' %}"></script>
+	</body>
+</html>
